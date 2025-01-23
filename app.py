@@ -42,7 +42,8 @@ def main():
             
             # Проверяем ровная ли осанка по ключевым точкам
             if len(keypoints) == 4: # Если нашлись все точки
-                length_spine = abs(keypoints[3][1] - keypoints[0][1]) # Высота позвоночника
+                # Высота позвоночника
+                length_spine = abs(keypoints[3][1] - keypoints[0][1])
                 for i in range(len(keypoints) - 1):
                     for j in range(i + 1, len(keypoints)):
                         x1 = keypoints[i][0]
