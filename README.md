@@ -12,11 +12,11 @@
 1. Установите python 3 любой версии.
 2. Склонируйте этот репозиторий к себе на локальную машину
    ```
-   $ git clone https://github.com/MakhmudovMels/car-segmentation.git
+   $ git clone https://github.com/MakhmudovMels/posture-keypoints-detection.git
    ```
 3. Используйте команду cd для перехода в созданную папку
    ```
-   $ cd car-segmentation
+   $ cd posture-keypoints-detection
    ```
 4. Установите все зависимости
    ```
