@@ -8,7 +8,7 @@ from pydantic import BaseModel
 app = FastAPI()
 
 # Конфигурация модели
-model = YOLO('models/best.pt')
+model = YOLO('best.pt')
 POINT_PAIRS = [(0, 1), (1, 2), (2, 3)]
 THRESHOLD = 1/6
 

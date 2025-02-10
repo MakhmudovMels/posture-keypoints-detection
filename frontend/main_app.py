@@ -31,10 +31,8 @@ def main():
 
     while on:
         _, frame = camera.read()
-        frame = cv2.resize(frame, (640, 480))
         if frame is None:
             continue
-
         # Отправка кадра на обработку
         result = process_frame(frame)
         
